@@ -1,6 +1,6 @@
 package com.julia.authapi.repository;
 
-import com.julia.authapi.model.User;
+import com.julia.authapi.model.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

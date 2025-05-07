@@ -1,4 +1,4 @@
-package com.julia.authapi.dto;
+package com.julia.authapi.dto.request;
 
 import lombok.Getter;
 import lombok.Setter;

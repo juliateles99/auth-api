@@ -1,11 +1,11 @@
 package com.julia.authapi.service;
 
 import com.julia.authapi.dto.AuthResponse;
-import com.julia.authapi.dto.LoginRequest;
-import com.julia.authapi.dto.RegisterRequest;
-import com.julia.authapi.model.Role;
-import com.julia.authapi.model.RoleName;
-import com.julia.authapi.model.User;
+import com.julia.authapi.dto.request.LoginRequest;
+import com.julia.authapi.dto.request.RegisterRequest;
+import com.julia.authapi.model.entity.Role;
+import com.julia.authapi.model.enums.RoleName;
+import com.julia.authapi.model.entity.User;
 import com.julia.authapi.repository.RoleRepository;
 import com.julia.authapi.repository.UserRepository;
 import lombok.RequiredArgsConstructor;

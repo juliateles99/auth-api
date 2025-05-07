@@ -1,0 +1,21 @@
+### Registrar novo usuário
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "julia",
+  "password": "123456"
+}
+
+### Login
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": "julia",
+  "password": "123456"
+}
+
+### Acesso protegido com token
+GET http://localhost:8080/protected
+Authorization: Bearer {{token}}

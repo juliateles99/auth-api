@@ -1,7 +1,7 @@
 package com.julia.authapi.repository;
 
-import com.julia.authapi.model.Role;
-import com.julia.authapi.model.RoleName;
+import com.julia.authapi.model.entity.Role;
+import com.julia.authapi.model.enums.RoleName;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

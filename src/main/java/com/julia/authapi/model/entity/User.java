@@ -1,4 +1,4 @@
-package com.julia.authapi.model;
+package com.julia.authapi.model.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

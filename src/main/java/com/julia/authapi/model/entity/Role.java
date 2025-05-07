@@ -1,6 +1,6 @@
-package com.julia.authapi.model;
+package com.julia.authapi.model.entity;
 
-import com.julia.authapi.model.RoleName;
+import com.julia.authapi.model.enums.RoleName;
 import jakarta.persistence.*;
 import lombok.*;
 
